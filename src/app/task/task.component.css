@@ -1,0 +1,17 @@
+app-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    color: whitesmoke;
+}
+span {
+    color: #f72585;
+    margin-left: 5px;
+    visibility: hidden;
+    cursor: pointer;
+}
+p:hover span {
+    visibility: visible;
+}

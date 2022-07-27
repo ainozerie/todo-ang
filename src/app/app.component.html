@@ -1,1 +1,4 @@
-<p>Hello!</p>
+<app-input (add)="add($event)"></app-input>
+<div *ngFor="let task of tasks; index as i">
+    <app-task [id]="i" [title]="task" (delete)="delete($event)"></app-task>
+</div>
